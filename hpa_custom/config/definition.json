@@ -1,0 +1,14 @@
+{
+  "endpoint" : "http://localhost:8500/index1.php",
+  "metrics_config" : [
+    {
+      "name" : "qps",
+      "metric_type" : "gauge",
+      "units" : "number of requests",
+      "data_type" : "int",
+      "polling_frequency" : 10,
+      "regex" : "qps: ([0-9]+)"
+    }
+  ]
+} 
+
